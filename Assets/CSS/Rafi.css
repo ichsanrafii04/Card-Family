@@ -1,0 +1,613 @@
+/* Layar Rafi */
+.portorafi {
+  /* display: block; */
+  display: none;
+  width: 100%;
+  height: 200%;
+
+  background-image: linear-gradient(
+    to top right,
+    rgb(37, 36, 36) 95%,
+    rgb(82, 82, 82),
+    rgb(134, 134, 134),
+    rgb(209, 209, 209)
+  );
+
+  font-family: "Archivo Black";
+
+  color: white;
+}
+/* Navbar */
+
+.nav_rafi {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  height: 50px;
+}
+
+.nav_rafi ul {
+  display: flex;
+}
+
+.nav_rafi ul li {
+  padding: 15px;
+  list-style-type: none;
+}
+
+.nav_rafi li a {
+  text-decoration: none;
+
+  color: rgb(255, 255, 255);
+}
+/* Navbar */
+
+/* Second Content */
+.second_wrapper {
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.second_wrapper img {
+  margin-right: 40px;
+}
+
+.introduction h3 {
+  color: rgb(245, 29, 72);
+}
+
+.introduction {
+  margin-top: 150px;
+}
+
+.introduction p {
+  width: 400px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.introduction button {
+  font-family: "Archivo Black";
+  margin-top: 10px;
+  width: 100px;
+  padding: 8px;
+
+  background-color: rgb(245, 29, 72);
+  border: none;
+
+  color: white;
+  box-shadow: 1px 3px 2px 0px white;
+  transition: 1s;
+
+  border-radius: 5px;
+}
+
+.introduction button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 1px 3px 2px 1px black;
+}
+
+.text {
+  display: flex;
+  gap: 8px;
+}
+
+.text .red {
+  color: rgb(245, 29, 72);
+}
+
+/* Batas Second Content */
+
+/* Third Content */
+.third_wrapper {
+  position: absolute;
+
+  right: 23%;
+  top: 600px;
+}
+.wrap3 {
+  display: flex;
+  gap: 15px;
+}
+
+.content {
+  height: 180px;
+  width: 200px;
+
+  padding: 25px;
+
+  background-color: rgb(75, 74, 74);
+
+  border-radius: 5px;
+}
+
+.content i {
+  font-size: 33px;
+  color: rgb(245, 29, 72);
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+
+.content h2 {
+  margin-bottom: 13px;
+}
+
+.content p {
+  margin-bottom: 13px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.content a {
+  color: rgb(245, 29, 72);
+  text-decoration: none;
+}
+
+.content a i {
+  font-size: 15px;
+}
+
+/* Batas Third Content */
+
+/* Hiasan Backgorund 1 */
+.hiasan_background1 {
+  background-color: rgb(52, 51, 51);
+
+  width: 52%;
+  height: 650px;
+}
+/* Batas Hiasan Backgorund 1 */
+/* hiasan background 2 */
+.hiasan_background2 {
+  background-color: rgb(52, 51, 51);
+
+  margin-top: 400px;
+  width: 100%;
+  height: 400px;
+}
+/* batas hiasan background 2 */
+
+/* Fourth Content */
+.fourth_wrapper {
+  display: grid;
+  grid-template-areas:
+    "header header menu menu main main"
+    "header header right right footer footer";
+  gap: 15px;
+
+  width: 60%;
+  height: 170px;
+
+  position: absolute;
+  left: 17%;
+  top: 920px;
+}
+
+.item1 {
+  grid-area: header;
+
+  text-align: center;
+
+  width: 100%;
+  height: 150px;
+
+  background: none;
+
+  border: 1px solid whi;
+}
+.item2 {
+  grid-area: menu;
+
+  text-align: center;
+
+  background-color: rgb(75, 74, 74);
+
+  width: 100%;
+  height: 80px;
+}
+.item3 {
+  grid-area: main;
+
+  text-align: center;
+
+  background-color: rgb(75, 74, 74);
+
+  width: 100%;
+  height: 80px;
+}
+.item4 {
+  grid-area: right;
+
+  text-align: center;
+
+  background-color: rgb(75, 74, 74);
+
+  width: 100%;
+  height: 80px;
+}
+.item5 {
+  grid-area: footer;
+
+  text-align: center;
+
+  background-color: rgb(75, 74, 74);
+
+  width: 100%;
+  height: 80px;
+}
+
+.item2 h3,
+.item3 h3,
+.item4 h3,
+.item5 h3 {
+  margin-top: 16px;
+
+  color: rgb(245, 29, 72);
+}
+
+.item2 p,
+.item3 p,
+.item4 p,
+.item5 p {
+  font-size: 15px;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.item1 h1 {
+  margin-top: 20px;
+
+  font-size: 70px;
+  margin-bottom: -10px;
+
+  color: rgb(245, 29, 72);
+
+  margin-left: 80px;
+}
+
+.item1 h3 {
+  font-size: 25px;
+
+  margin-left: 90px;
+}
+
+/* Batas Fourth Content */
+
+/* five content */
+.five_wrapper {
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+
+  position: absolute;
+}
+.wrap5 {
+  width: 60%;
+  height: auto;
+  margin-left: 30px;
+}
+/* TOP */
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.kiri button {
+  padding: 10px;
+  width: 125px;
+
+  margin-top: 8px;
+
+  background-color: rgb(245, 29, 72);
+  color: white;
+
+  border: none;
+  font-family: "Archivo Black";
+  transition: 1.5s;
+}
+.kiri button:hover {
+  background-color: white;
+  color: black;
+}
+/* MIDDLE&BOTTOM */
+.middle,
+.bottom {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.konten {
+  align-items: center;
+  width: 350px;
+  height: 270px;
+}
+
+.foto {
+  width: 100%;
+  height: 213px;
+  background-color: rgb(84, 84, 84);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foto img {
+  width: 85%;
+  height: 67%;
+
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 1px 4px 5px 1px black;
+}
+
+.konten h3 {
+  margin-top: 12px;
+}
+.konten a {
+  color: rgb(245, 29, 72);
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 12px;
+
+  font-family: "Roboto Mono", monospace;
+}
+
+/* batas five content */
+
+/* Sixth Content */
+.sixth_wrapper {
+  top: 1915px;
+  left: 380px;
+  position: absolute;
+  background-color: rgb(59, 59, 59);
+  width: 52%;
+  height: 200px;
+
+  box-shadow: 2px 2px 2px 2px black;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+}
+
+.kana6,
+.kiri6 {
+  padding: 30px;
+}
+
+.kiri6 {
+  width: 70%;
+}
+.kiri6 p {
+  font-size: 10px;
+  font-family: "Roboto Mono", monospace;
+  margin-top: 15px;
+}
+.kanan6 button {
+  background-color: rgb(245, 29, 72);
+  padding: 13px;
+  color: white;
+  width: 150px;
+  border: none;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 1px 3px 3px 1px black;
+
+  font-family: "Archivo Black";
+
+  transition: 1s;
+}
+.kanan6 button:hover {
+  color: black;
+  background-color: white;
+}
+/* Batas Sixth Content */
+
+/* FOOTER */
+footer {
+  width: 100%;
+  height: 80px;
+
+  margin-top: 250px;
+
+  background-color: rgb(59, 59, 59);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iwrap {
+  width: 20%;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.iwrap i {
+  font-size: 25px;
+  color: rgb(155, 155, 155);
+}
+/* BATAS FOOTER */
+
+/* Batas Layar Rafi */
+
+/* Responsive HP */
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .portorafi {
+    width: 100%;
+    height: 150%;
+  }
+  /* NAVBAR */
+  .nav_rafi {
+    width: 100%;
+    height: 50px;
+  }
+  .nav_rafi a {
+    font-size: 7px;
+  }
+
+  /* SECOND */
+  .second_wrapper {
+    width: 90%;
+    height: 250px;
+  }
+  .second_wrapper img {
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+    height: 240px;
+  }
+  .introduction {
+    margin-top: 90px;
+  }
+  .text {
+    width: 350px;
+  }
+  .introduction h3 {
+    font-size: 10px;
+  }
+  .introduction h1 {
+    font-size: 18px;
+  }
+  .second_wrapper p {
+    font-size: 8px;
+    width: 250px;
+  }
+  .introduction button {
+    width: 80px;
+    padding: 5px;
+    font-size: 10px;
+  }
+  /* HIASAN */
+  .hiasan_background1 {
+    width: 55%;
+    height: 370px;
+  }
+  .hiasan_background2 {
+    height: 250px;
+    margin-top: 520px;
+  }
+  /* BATAS HIASAN */
+  /* THIRD CONTENT */
+  .third_wrapper {
+    right: 8%;
+    top: 330px;
+  }
+  .content {
+    height: 90px;
+    width: 90px;
+  }
+  .content i {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .content h2 {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .content p {
+    font-size: 8px;
+    margin-bottom: 3px;
+  }
+  .content a {
+    font-size: 10px;
+  }
+  .content a i {
+    font-size: 10px;
+  }
+  /* FOURTH CONTENT */
+  .fourth_wrapper {
+    top: 500px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+
+    gap: 5px;
+  }
+  .item1 {
+    width: 250px;
+    margin-left: 30px;
+  }
+  .item1 h1 {
+    margin: 0;
+    font-size: 45px;
+    margin-top: 10px;
+  }
+  .item1 h3 {
+    font-size: 15px;
+    margin: 0;
+  }
+  .item2,
+  .item3,
+  .item4,
+  .item5 {
+    width: 130px;
+    height: 45px;
+  }
+  .item2,
+  .item4 {
+    margin-left: -80px;
+    margin-right: -40px;
+  }
+  .item2,
+  .item3 {
+    margin-top: 10px;
+    margin-bottom: -30px;
+  }
+  .item2 h3,
+  .item3 h3,
+  .item4 h3,
+  .item5 h3 {
+    margin-top: 7px;
+    font-size: 13px;
+  }
+  .item2 p,
+  .item3 p,
+  .item4 p,
+  .item5 p {
+    font-size: 8px;
+  }
+  /* FIFTH CONTENT */
+  .five_wrapper {
+    top: 700px;
+    width: 100%;
+  }
+  .wrap5 {
+    order: 1px solid red;
+    width: 80%;
+  }
+  .konten {
+    width: 220px;
+    height: 260px;
+  }
+}
+/* SIXTH CONTENT */
+.sixth_wrapper {
+  top: 1380px;
+  left: 70px;
+  width: 80%;
+  height: 130px;
+}
+.kiri6 {
+  width: 55%;
+}
+.kiri6 h1 {
+  font-size: 17px;
+}
+.kiri6 p {
+  font-size: 8px;
+  margin-top: 7px;
+}
+.kanan6 button {
+  padding: 5px;
+  width: 90px;
+  margin-left: 15px;
+  font-size: 10px;
+}
+/* footer */
+.iwrap {
+  width: 40%;
+}
