@@ -432,11 +432,11 @@ footer {
 
 /* Batas Layar Rafi */
 
-/* Responsive HP */
-@media screen and (min-width: 320px) and (max-width: 576px) {
+/* Responsive HP (IP XR) */
+@media screen and (min-width: 391px) and (max-width: 476px) {
   .portorafi {
     width: 100%;
-    height: 150%;
+    height: 135%;
   }
   /* NAVBAR */
   .nav_rafi {
@@ -449,79 +449,84 @@ footer {
 
   /* SECOND */
   .second_wrapper {
-    width: 90%;
-    height: 250px;
+    margin-left: 13%;
+    width: 60%;
+    height: 200px;
   }
   .second_wrapper img {
-    margin-left: 60px;
-    margin-right: 10px;
+    margin-left: 185px;
+    margin-right: 3px;
     margin-top: 10px;
 
-    height: 240px;
+    height: 190px;
   }
   .introduction {
     margin-top: 90px;
   }
   .text {
-    width: 350px;
+    width: 320px;
   }
   .introduction h3 {
-    font-size: 10px;
+    font-size: 7px;
   }
   .introduction h1 {
-    font-size: 18px;
+    font-size: 15px;
   }
   .second_wrapper p {
-    font-size: 8px;
+    font-size: 5px;
     width: 250px;
+    width: 150px;
   }
   .introduction button {
-    width: 80px;
-    padding: 5px;
-    font-size: 10px;
+    width: 60px;
+    padding: 4px;
+    font-size: 7px;
   }
   /* HIASAN */
   .hiasan_background1 {
     width: 55%;
-    height: 370px;
+    height: 350px;
   }
   .hiasan_background2 {
-    height: 250px;
-    margin-top: 520px;
+    height: 230px;
+    margin-top: 420px;
   }
   /* BATAS HIASAN */
   /* THIRD CONTENT */
   .third_wrapper {
-    right: 8%;
-    top: 330px;
+    right: 4%;
+    top: 280px;
   }
   .content {
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 65px;
+
+    padding: 16px 25px 27px 25px;
   }
   .content i {
-    font-size: 18px;
-    margin-top: 0;
+    font-size: 15px;
+    margin-top: -25px;
     margin-bottom: 5px;
   }
   .content h2 {
-    font-size: 13px;
+    font-size: 10px;
     margin-bottom: 5px;
   }
   .content p {
-    font-size: 8px;
+    font-size: 6px;
     margin-bottom: 3px;
   }
   .content a {
-    font-size: 10px;
+    font-size: 8px;
+    margin-bottom: 10px;
   }
   .content a i {
-    font-size: 10px;
+    font-size: 8px;
   }
   /* FOURTH CONTENT */
   .fourth_wrapper {
-    top: 500px;
-    left: 0;
+    top: 450px;
+    left: -55px;
     width: 100%;
     height: 80px;
 
@@ -533,29 +538,29 @@ footer {
   }
   .item1 h1 {
     margin: 0;
-    font-size: 45px;
+    font-size: 43px;
     margin-top: 10px;
   }
   .item1 h3 {
-    font-size: 15px;
+    font-size: 12px;
     margin: 0;
   }
   .item2,
   .item3,
   .item4,
   .item5 {
-    width: 130px;
+    width: 110px;
     height: 45px;
   }
   .item2,
   .item4 {
-    margin-left: -80px;
-    margin-right: -40px;
+    margin-left: -60px;
+    margin-right: -0px;
   }
   .item2,
   .item3 {
     margin-top: 10px;
-    margin-bottom: -30px;
+    margin-bottom: -40px;
   }
   .item2 h3,
   .item3 h3,
@@ -572,42 +577,76 @@ footer {
   }
   /* FIFTH CONTENT */
   .five_wrapper {
-    top: 700px;
+    top: 650px;
     width: 100%;
   }
   .wrap5 {
     order: 1px solid red;
-    width: 80%;
+    width: 90%;
+    margin-left: 2%;
+  }
+  .bottom {
+    margin-top: -60px;
+  }
+  .kanan h2 {
+    font-size: 18px;
+  }
+  .kanan p {
+    margin-top: 3px;
+    font-size: 9px;
+  }
+  .kiri button {
+    margin-top: 15px;
+    padding: 5px;
+    width: 90px;
+    font-size: 9px;
   }
   .konten {
     width: 220px;
     height: 260px;
   }
+  .foto {
+    height: 150px;
+    width: 97%;
+  }
+  .konten h3 {
+    font-size: 10px;
+    margin-top: 8px;
+  }
+  .konten a {
+    font-size: 8.5px;
+  }
+  /* SIXTH CONTENT */
+  .sixth_wrapper {
+    top: 1200px;
+    left: 5%;
+    width: 89%;
+    height: 130px;
+  }
+  .kiri6 {
+    width: 50%;
+  }
+  .kiri6 h1 {
+    font-size: 15px;
+  }
+  .kiri6 p {
+    font-size: 6px;
+    margin-top: 7px;
+  }
+  .kanan6 button {
+    padding: 3px;
+    width: 70px;
+    margin-left: 15px;
+    font-size: 8px;
+  }
+  /* footer */
+  .iwrap {
+    width: 40%;
+  }
 }
 /* SIXTH CONTENT */
-.sixth_wrapper {
-  top: 1380px;
-  left: 70px;
-  width: 80%;
-  height: 130px;
+
+/* Responsive HP (IP 12Pro) */
+@media screen and (min-width: 376px) and (max-width: 390px) {
 }
-.kiri6 {
-  width: 55%;
-}
-.kiri6 h1 {
-  font-size: 17px;
-}
-.kiri6 p {
-  font-size: 8px;
-  margin-top: 7px;
-}
-.kanan6 button {
-  padding: 5px;
-  width: 90px;
-  margin-left: 15px;
-  font-size: 10px;
-}
-/* footer */
-.iwrap {
-  width: 40%;
-}
+/* Responsive HP (IP 12P) */
